@@ -1,0 +1,7 @@
+kubernetesClusterDomain: cluster.local
+marioDeployment:
+  marioContainer:
+    image:
+      repository: rajatrokde/k8-mario
+      tag: latest
+  replicas: 2
